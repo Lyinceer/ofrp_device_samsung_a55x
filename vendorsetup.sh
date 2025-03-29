@@ -42,3 +42,6 @@ export FOX_USE_LZ4_BINARY=1
 export FOX_DELETE_AROMAFM=1
 export FOX_VERSION="R12.1_2025-03-28"
 export OF_MAINTAINER="Lyinceer"
+export USE_CCACHE=1
+export CCACHE_EXEC=/usr/bin/ccache
+ccache -M 50G  # Allocates 50GB for ccache
